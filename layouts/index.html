@@ -1,4 +1,3 @@
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {{ define "title" }}{{ .Site.Title }}{{ end}}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
@@ -14,6 +13,7 @@
 <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
 <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
 <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {{ end }}
 
 {{ define "main" }}
