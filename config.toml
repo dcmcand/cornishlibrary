@@ -1,4 +1,4 @@
-baseurl = "htttps://cornishlibrary.netlify.app" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseurl = "https://cornishlibrary.netlify.app" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
 title = "George H Stowell Free Library"
 theme = "hugo-universal-theme"
 themesDir = "themes"
@@ -67,7 +67,8 @@ pluralizelisttitles = false
     longitude = "-72.27807941542312"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    # style = "default"
+    style = "custom"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -111,8 +112,8 @@ pluralizelisttitles = false
 
     dropdown_mouse_over = false
 
-    disabled_logo = false
-    logo_text = "Universal"
+    disabled_logo = true
+    logo_text = "George H Stowell Free Library"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
@@ -171,7 +172,7 @@ pluralizelisttitles = false
     # For more information take a look at the README.
 
 [params.testimonials]
-    enable = true
+    enable = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
@@ -179,7 +180,7 @@ pluralizelisttitles = false
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -187,7 +188,7 @@ pluralizelisttitles = false
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
@@ -195,13 +196,13 @@ pluralizelisttitles = false
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
 [params.footer.recent_posts]
-    enable = true
+    enable = false
 
 [taxonomies]
   category = "categories"
